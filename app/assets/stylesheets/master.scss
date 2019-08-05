@@ -1,0 +1,67 @@
+@import "bootstrap";
+
+body {
+    background-image: url("bg.jpg");
+    background-image: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: black;
+}
+
+.link_form {
+    border: 3px solid #45433d;
+    background: #e8cc76;
+    max-width: 200px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: white;
+    font-weight: bold;
+}
+
+h1.form-style {
+    color: #7a2f28;
+    font-weight: 600;
+}
+
+.frosty-box {
+    -moz-box-shadow: 4px 4px 8px 0 #d0d0d0;
+    -webkit-box-shadow: 4px 4px 8px 0 #d0d0d0;
+    background: #fff;
+    border: 10px solid #ccc;
+    padding: 10px;
+    opacity: 0.9;
+    max-width: 450px;
+    font-weight: bold;
+}
+
+header {
+    border-top: 9px solid #222222;
+    background-image: url("bg-header.jpg");
+    background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header_bottom {
+    border-top: 10px solid black;
+}
+
+.clear {
+    clear: both;
+}
+
+.top {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    test-weight: boxld
+}
