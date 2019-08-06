@@ -1,22 +1,37 @@
 <body>
-    <br /><br /> <br />
-    <div class="col-2-md offset-1">
-        <h1>Five Top Endangered Species</h1>
-        <h2>Save these animals before they become extinct<h2>
-    </div>   
-    <hr class="style-four"> 
-    <p class="frosty-box col-3-sm offset-4">
 
-        <%= @animal.each do |animal| %>
-            <%= animal.name %>
-        <% end %>
+    <br /><br /> <br />
+
+    <div class="col-2-md offset-1">
+
+        <h1>Top Endangered Species</h1>
+
+        <h2>Under contruction - but let us know what you think<h2>
+
+    </div>   
+
+    <hr class="style-four"> 
+
+    <p class="frosty-box col-3-sm offset-4" >
+            <br />
+            <%= @animal.name %>
+            <br />
         
+
     </p>
+
     <div class="link_form col-2-md offset-1">
+
         <%= link_to "Enter your comments", new_animal_path %>
+
     </div>
+
     <br />
+
     <br />
+
     <br />
+
     
+
 </body>
